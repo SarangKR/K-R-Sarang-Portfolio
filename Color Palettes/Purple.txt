@@ -1,0 +1,36 @@
+/* Night Sky Shades - https://coolors.co/18005f-20005e-28005d-2f005c-37005b-3f0059-470058-4e0057-560056-5e0055 */
+
+- CSV
+
+18005f,20005e,28005d,2f005c,37005b,3f0059,470058,4e0057,560056,5e0055
+
+- With #
+
+#18005f, #20005e, #28005d, #2f005c, #37005b, #3f0059, #470058, #4e0057, #560056, #5e0055
+
+- Array
+
+["18005f","20005e","28005d","2f005c","37005b","3f0059","470058","4e0057","560056","5e0055"]
+
+- Object
+
+{"Deep Twilight":"18005f","Deep Twilight 2":"20005e","Indigo Ink":"28005d","Indigo Ink 2":"2f005c","Dark Amethyst":"37005b","Dark Amethyst 2":"3f0059","Dark Amethyst 3":"470058","Dark Amethyst 4":"4e0057","Deep Purple":"560056","Deep Purple 2":"5e0055"}
+
+- Extended Array
+
+[{"name":"Deep Twilight","hex":"18005f","rgb":[24,0,95],"cmyk":[75,100,0,63],"hsb":[255,100,37],"hsl":[255,100,19],"lab":[9,39,-49]},{"name":"Deep Twilight","hex":"20005e","rgb":[32,0,94],"cmyk":[66,100,0,63],"hsb":[260,100,37],"hsl":[260,100,18],"lab":[10,39,-48]},{"name":"Indigo Ink","hex":"28005d","rgb":[40,0,93],"cmyk":[57,100,0,64],"hsb":[266,100,36],"hsl":[266,100,18],"lab":[11,40,-45]},{"name":"Indigo Ink","hex":"2f005c","rgb":[47,0,92],"cmyk":[49,100,0,64],"hsb":[271,100,36],"hsl":[271,100,18],"lab":[12,40,-43]},{"name":"Dark Amethyst","hex":"37005b","rgb":[55,0,91],"cmyk":[40,100,0,64],"hsb":[276,100,36],"hsl":[276,100,18],"lab":[13,41,-40]},{"name":"Dark Amethyst","hex":"3f0059","rgb":[63,0,89],"cmyk":[29,100,0,65],"hsb":[282,100,35],"hsl":[282,100,17],"lab":[14,41,-37]},{"name":"Dark Amethyst","hex":"470058","rgb":[71,0,88],"cmyk":[19,100,0,65],"hsb":[288,100,35],"hsl":[288,100,17],"lab":[16,42,-34]},{"name":"Dark Amethyst","hex":"4e0057","rgb":[78,0,87],"cmyk":[10,100,0,66],"hsb":[294,100,34],"hsl":[294,100,17],"lab":[17,43,-31]},{"name":"Deep Purple","hex":"560056","rgb":[86,0,86],"cmyk":[0,100,0,66],"hsb":[300,100,34],"hsl":[300,100,17],"lab":[19,45,-28]},{"name":"Deep Purple","hex":"5e0055","rgb":[94,0,85],"cmyk":[0,100,10,63],"hsb":[306,100,37],"hsl":[306,100,18],"lab":[20,46,-24]}]
+
+- XML
+
+<palette>
+  <color name="Deep Twilight" hex="18005f" r="24" g="0" b="95" />
+  <color name="Deep Twilight" hex="20005e" r="32" g="0" b="94" />
+  <color name="Indigo Ink" hex="28005d" r="40" g="0" b="93" />
+  <color name="Indigo Ink" hex="2f005c" r="47" g="0" b="92" />
+  <color name="Dark Amethyst" hex="37005b" r="55" g="0" b="91" />
+  <color name="Dark Amethyst" hex="3f0059" r="63" g="0" b="89" />
+  <color name="Dark Amethyst" hex="470058" r="71" g="0" b="88" />
+  <color name="Dark Amethyst" hex="4e0057" r="78" g="0" b="87" />
+  <color name="Deep Purple" hex="560056" r="86" g="0" b="86" />
+  <color name="Deep Purple" hex="5e0055" r="94" g="0" b="85" />
+</palette>

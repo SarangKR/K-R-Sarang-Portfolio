@@ -1,0 +1,36 @@
+/* Deep Sea Dive - https://coolors.co/000e14-00111a-00141f-001824-001b29-002233-00293d-003047-003652-003d5c */
+
+- CSV
+
+000e14,00111a,00141f,001824,001b29,002233,00293d,003047,003652,003d5c
+
+- With #
+
+#000e14, #00111a, #00141f, #001824, #001b29, #002233, #00293d, #003047, #003652, #003d5c
+
+- Array
+
+["000e14","00111a","00141f","001824","001b29","002233","00293d","003047","003652","003d5c"]
+
+- Object
+
+{"Ink Black":"000e14","Ink Black 2":"00111a","Ink Black 3":"00141f","Ink Black 4":"001824","Ink Black 5":"001b29","Deep Space Blue":"002233","Deep Space Blue 2":"00293d","Deep Space Blue 3":"003047","Deep Space Blue 4":"003652","Yale Blue":"003d5c"}
+
+- Extended Array
+
+[{"name":"Ink Black","hex":"000e14","rgb":[0,14,20],"cmyk":[100,30,0,92],"hsb":[198,100,8],"hsl":[198,100,4],"lab":[3,-3,-5]},{"name":"Ink Black","hex":"00111a","rgb":[0,17,26],"cmyk":[100,35,0,90],"hsb":[201,100,10],"hsl":[201,100,5],"lab":[4,-3,-8]},{"name":"Ink Black","hex":"00141f","rgb":[0,20,31],"cmyk":[100,35,0,88],"hsb":[201,100,12],"hsl":[201,100,6],"lab":[5,-3,-10]},{"name":"Ink Black","hex":"001824","rgb":[0,24,36],"cmyk":[100,33,0,86],"hsb":[200,100,14],"hsl":[200,100,7],"lab":[7,-4,-11]},{"name":"Ink Black","hex":"001b29","rgb":[0,27,41],"cmyk":[100,34,0,84],"hsb":[200,100,16],"hsl":[200,100,8],"lab":[9,-4,-13]},{"name":"Deep Space Blue","hex":"002233","rgb":[0,34,51],"cmyk":[100,33,0,80],"hsb":[200,100,20],"hsl":[200,100,10],"lab":[12,-5,-15]},{"name":"Deep Space Blue","hex":"00293d","rgb":[0,41,61],"cmyk":[100,33,0,76],"hsb":[200,100,24],"hsl":[200,100,12],"lab":[15,-5,-17]},{"name":"Deep Space Blue","hex":"003047","rgb":[0,48,71],"cmyk":[100,32,0,72],"hsb":[199,100,28],"hsl":[199,100,14],"lab":[18,-5,-19]},{"name":"Deep Space Blue","hex":"003652","rgb":[0,54,82],"cmyk":[100,34,0,68],"hsb":[200,100,32],"hsl":[200,100,16],"lab":[21,-4,-22]},{"name":"Yale Blue","hex":"003d5c","rgb":[0,61,92],"cmyk":[100,34,0,64],"hsb":[200,100,36],"hsl":[200,100,18],"lab":[24,-5,-23]}]
+
+- XML
+
+<palette>
+  <color name="Ink Black" hex="000e14" r="0" g="14" b="20" />
+  <color name="Ink Black" hex="00111a" r="0" g="17" b="26" />
+  <color name="Ink Black" hex="00141f" r="0" g="20" b="31" />
+  <color name="Ink Black" hex="001824" r="0" g="24" b="36" />
+  <color name="Ink Black" hex="001b29" r="0" g="27" b="41" />
+  <color name="Deep Space Blue" hex="002233" r="0" g="34" b="51" />
+  <color name="Deep Space Blue" hex="00293d" r="0" g="41" b="61" />
+  <color name="Deep Space Blue" hex="003047" r="0" g="48" b="71" />
+  <color name="Deep Space Blue" hex="003652" r="0" g="54" b="82" />
+  <color name="Yale Blue" hex="003d5c" r="0" g="61" b="92" />
+</palette>

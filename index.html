@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Custom Cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
     <!-- Scroll Progress Bar -->
     <div id="progress-bar"></div>
 
@@ -65,6 +69,21 @@
 
                     </p>
                     <a href="https://docs.google.com/document/d/1DT2LcQ0_vZYbeE4lU6W0NMwmON5oXBp1/edit?usp=sharing&ouid=118091442162666759291&rtpof=true&sd=true" target="_blank" class="download-resume">Download Resume</a>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3" data-suffix="+">0+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="2" data-suffix="">0</span>
+                            <span class="stat-label">Internships</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3" data-suffix="+">0+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,7 +199,15 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                        <div class="project-placeholder" style="font-size: 3rem;">🔨</div>
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" width="88" height="88">
+                                <circle cx="45" cy="45" r="38" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                                <rect x="24" y="46" width="42" height="31" rx="7" fill="rgba(255,255,255,0.16)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+                                <path d="M33 46 V34 A12 12 0 0 1 57 34 V46" stroke="rgba(255,255,255,0.75)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                                <circle cx="45" cy="60" r="4.5" fill="rgba(255,255,255,0.75)"/>
+                                <rect x="43" y="63" width="4" height="7" rx="2" fill="rgba(255,255,255,0.75)"/>
+                            </svg>
+                        </div>
                     </div>
                     <div class="project-content">
                         <a href="https://github.com/SarangKR/Internship---Python-Programming" target="_blank" class="project-link">◆ VIEW PROJECT ◆</a>
@@ -195,7 +222,14 @@
                 </div>
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <div class="project-placeholder" style="font-size: 3rem;">😊</div>
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" width="88" height="88">
+                                <path d="M12 18 Q12 8 22 8 L68 8 Q78 8 78 18 L78 52 Q78 62 68 62 L46 62 L33 77 L33 62 L22 62 Q12 62 12 52 Z" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                                <circle cx="34" cy="33" r="4.5" fill="rgba(255,255,255,0.8)"/>
+                                <circle cx="56" cy="33" r="4.5" fill="rgba(255,255,255,0.8)"/>
+                                <path d="M30 46 Q45 58 60 46" stroke="rgba(255,255,255,0.8)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                            </svg>
+                        </div>
                     </div>
                     <div class="project-content">
                         <a href="https://github.com/SarangKR/Internship---Data-Science-AIML-/tree/main/Sentiment%20Analysis" target="_blank" class="project-link">◆ VIEW PROJECT ◆</a>
@@ -211,7 +245,18 @@
                 </div>
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <div class="project-placeholder" style="font-size: 3rem;">🎬</div>
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" width="88" height="88">
+                                <rect x="12" y="18" width="66" height="54" rx="5" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+                                <rect x="4" y="25" width="11" height="9" rx="2" fill="rgba(255,255,255,0.45)"/>
+                                <rect x="4" y="41" width="11" height="9" rx="2" fill="rgba(255,255,255,0.45)"/>
+                                <rect x="4" y="57" width="11" height="9" rx="2" fill="rgba(255,255,255,0.45)"/>
+                                <rect x="75" y="25" width="11" height="9" rx="2" fill="rgba(255,255,255,0.45)"/>
+                                <rect x="75" y="41" width="11" height="9" rx="2" fill="rgba(255,255,255,0.45)"/>
+                                <rect x="75" y="57" width="11" height="9" rx="2" fill="rgba(255,255,255,0.45)"/>
+                                <path d="M36 32 L36 58 L62 45 Z" fill="rgba(255,255,255,0.8)"/>
+                            </svg>
+                        </div>
                     </div>
                     <div class="project-content">
                         <a href="https://github.com/SarangKR/Internship---Data-Science-AIML-/tree/main/Movie%20Recommendation%20System" target="_blank" class="project-link">◆ VIEW PROJECT ◆</a>
@@ -274,21 +319,51 @@
             <h2 class="section-title-large">Professional certifications and achievements - </h2>
             <div class="certificates-grid">
                 <div class="certificate-card">
-                    <div class="certificate-icon">🏆</div>
+                    <div class="certificate-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs><linearGradient id="cert1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c4b5fd"/><stop offset="100%" stop-color="#fcd34d"/></linearGradient></defs>
+                            <rect x="3" y="5" width="42" height="30" rx="3" stroke="url(#cert1)" stroke-width="2"/>
+                            <rect x="7" y="18" width="7" height="13" rx="1" fill="url(#cert1)" fill-opacity="0.25" stroke="url(#cert1)" stroke-width="1.5"/>
+                            <rect x="17" y="12" width="7" height="19" rx="1" fill="url(#cert1)" fill-opacity="0.25" stroke="url(#cert1)" stroke-width="1.5"/>
+                            <rect x="27" y="15" width="7" height="16" rx="1" fill="url(#cert1)" fill-opacity="0.25" stroke="url(#cert1)" stroke-width="1.5"/>
+                            <rect x="37" y="9" width="7" height="22" rx="1" fill="url(#cert1)" fill-opacity="0.25" stroke="url(#cert1)" stroke-width="1.5"/>
+                            <path d="M21 35 L21 42 M27 35 L27 42" stroke="url(#cert1)" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M14 42 L34 42" stroke="url(#cert1)" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
                     <h3>Power BI Certification</h3>
                     <div class="certificate-issuer">Udemy - Maven Analytics</div>
                     <div class="certificate-date">Sep 2025</div>
                     <a href="https://www.udemy.com/certificate/UC-fd849bff-e597-41ff-b53f-f97c8999bfa9/" target="_blank" class="certificate-view-link">◆ View Credential</a>
                 </div>
                 <div class="certificate-card">
-                    <div class="certificate-icon">🎓</div>
+                    <div class="certificate-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs><linearGradient id="cert2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c4b5fd"/><stop offset="100%" stop-color="#fcd34d"/></linearGradient></defs>
+                            <path d="M10 30 Q4 30 4 22 Q4 14 12 14 Q13 7 22 7 Q30 7 32 13 Q40 13 40 21 Q40 30 32 30 Z" stroke="url(#cert2)" stroke-width="2" fill="none"/>
+                            <path d="M22 17 L24 21 L28 21 L25 24 L26 28 L22 26 L18 28 L19 24 L16 21 L20 21 Z" fill="url(#cert2)" fill-opacity="0.4" stroke="url(#cert2)" stroke-width="1.2"/>
+                            <circle cx="12" cy="37" r="2.5" fill="url(#cert2)" fill-opacity="0.7"/>
+                            <circle cx="24" cy="41" r="2.5" fill="url(#cert2)" fill-opacity="0.7"/>
+                            <circle cx="36" cy="37" r="2.5" fill="url(#cert2)" fill-opacity="0.7"/>
+                        </svg>
+                    </div>
                     <h3>Generative AI Certification</h3>
                     <div class="certificate-issuer">Amazon Web Services</div>
                     <div class="certificate-date">July 2025</div>
                     <a href="https://drive.google.com/file/d/1coKQKKyN6ubiXEQyAwFkAJFPuNe3rsnD/view?usp=sharing" target="_blank" class="certificate-view-link">◆ View Credential</a>
                 </div>
                 <div class="certificate-card">
-                    <div class="certificate-icon">📜</div>
+                    <div class="certificate-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs><linearGradient id="cert3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c4b5fd"/><stop offset="100%" stop-color="#fcd34d"/></linearGradient></defs>
+                            <path d="M4 42 L4 6" stroke="url(#cert3)" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M4 42 L44 42" stroke="url(#cert3)" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M10 34 L17 22 L24 28 L32 12" stroke="url(#cert3)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="37" cy="18" r="8" stroke="url(#cert3)" stroke-width="2"/>
+                            <path d="M43 24 L48 30" stroke="url(#cert3)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                            <circle cx="37" cy="18" r="3" fill="url(#cert3)" fill-opacity="0.55"/>
+                        </svg>
+                    </div>
                     <h3>TCS Job Sim for Data Visualization</h3>
                     <div class="certificate-issuer">Forage - Tata Consultancy Services</div>
                     <div class="certificate-date">May 2025</div>
@@ -394,7 +469,7 @@
                 }
             });
         }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-        document.querySelectorAll('.skill-card, .project-card, .experience-card, .certificate-card, .about-text, .section-label, .section-title-large').forEach(el => {
+        document.querySelectorAll('.skill-card, .project-card, .experience-card, .certificate-card, .about-text, .about-stats, .section-label, .section-title-large').forEach(el => {
             el.classList.add('reveal');
             revealObserver.observe(el);
         });
@@ -493,6 +568,72 @@
                 card.style.transform = '';
             });
         });
+
+        /* ── Custom Cursor ── */
+        const cursorDot = document.getElementById('cursor-dot');
+        const cursorRing = document.getElementById('cursor-ring');
+        if (cursorDot && cursorRing) {
+            let rX = 0, rY = 0, mX = 0, mY = 0;
+            document.addEventListener('mousemove', e => {
+                mX = e.clientX;
+                mY = e.clientY;
+                cursorDot.style.left = mX + 'px';
+                cursorDot.style.top = mY + 'px';
+            });
+            (function animRing() {
+                rX += (mX - rX) * 0.11;
+                rY += (mY - rY) * 0.11;
+                cursorRing.style.left = rX + 'px';
+                cursorRing.style.top = rY + 'px';
+                requestAnimationFrame(animRing);
+            })();
+            document.querySelectorAll('a, button, .skill-card, .project-card, .certificate-card, .experience-card').forEach(el => {
+                el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+                el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+            });
+        }
+
+        /* ── Spotlight Card Effect ── */
+        document.querySelectorAll('.skill-card, .project-card, .experience-card, .certificate-card').forEach(card => {
+            card.addEventListener('mousemove', e => {
+                const r = card.getBoundingClientRect();
+                card.style.setProperty('--sx', (e.clientX - r.left) + 'px');
+                card.style.setProperty('--sy', (e.clientY - r.top) + 'px');
+            });
+        });
+
+        /* ── Magnetic Buttons ── */
+        document.querySelectorAll('.btn-primary, .btn-secondary, .download-resume').forEach(btn => {
+            btn.addEventListener('mousemove', e => {
+                const r = btn.getBoundingClientRect();
+                const x = (e.clientX - r.left - r.width / 2) * 0.22;
+                const y = (e.clientY - r.top - r.height / 2) * 0.22;
+                btn.style.transform = `translate(${x}px, ${y}px) translateY(-3px)`;
+            });
+            btn.addEventListener('mouseleave', () => { btn.style.transform = ''; });
+        });
+
+        /* ── Stats Counter ── */
+        const statEls = document.querySelectorAll('.stat-number');
+        if (statEls.length) {
+            const statsObs = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    const el = entry.target;
+                    const target = parseInt(el.dataset.target, 10);
+                    const suffix = el.dataset.suffix || '';
+                    let current = 0;
+                    const inc = Math.max(1, Math.ceil(target / 35));
+                    const timer = setInterval(() => {
+                        current = Math.min(current + inc, target);
+                        el.textContent = current + suffix;
+                        if (current >= target) clearInterval(timer);
+                    }, 45);
+                    statsObs.unobserve(el);
+                });
+            }, { threshold: 0.5 });
+            statEls.forEach(n => statsObs.observe(n));
+        }
     </script>
 </body>
 </html>

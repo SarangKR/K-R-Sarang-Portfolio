@@ -31,7 +31,6 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
-    overflow-x: hidden;
 }
 
 /* ===== CUSTOM SCROLLBAR ===== */
@@ -81,7 +80,6 @@ body {
     color: var(--text-primary);
     line-height: 1.7;
     overflow-x: hidden;
-    max-width: 100%;
     min-width: 320px;
     font-weight: 400;
     letter-spacing: 0.01em;

@@ -428,12 +428,11 @@
             navMenu.classList.toggle('open', open);
             navBackdrop.classList.toggle('visible', open);
             navToggle.setAttribute('aria-expanded', open);
-            // iOS-safe scroll lock
             if (open) {
                 savedScrollY = window.scrollY;
-                document.body.style.cssText = `overflow:hidden;position:fixed;top:-${savedScrollY}px;width:100%;`;
+                document.body.style.overflow = 'hidden';
             } else {
-                document.body.style.cssText = '';
+                document.body.style.overflow = '';
                 window.scrollTo(0, savedScrollY);
             }
         }

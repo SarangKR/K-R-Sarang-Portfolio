@@ -433,6 +433,8 @@
             navToggle.addEventListener('click', () => setNavOpen(!navMenu.classList.contains('open')));
             navBackdrop.addEventListener('click', () => setNavOpen(false));
             navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setNavOpen(false)));
+            document.querySelector('.nav-brand')?.addEventListener('click', () => setNavOpen(false));
+            document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setNavOpen(false); });
         }
 
         /* ── Navbar hide/show on scroll ── */
@@ -441,6 +443,7 @@
         const heroSection = document.querySelector('.hero');
 
         window.addEventListener('scroll', function () {
+            if (navMenu.classList.contains('open')) return;
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             const heroHeight = heroSection.offsetHeight;
             if (scrollTop < heroHeight) {
